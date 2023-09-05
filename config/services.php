@@ -31,4 +31,17 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+
+    
+    'facebook' => [
+        'client_id' => env('FACEBOOK_APP_ID'),
+        'client_secret' => env('FACEBOOK_APP_SECRET'),
+        'redirect' => env('FACEBOOK_REDIRECT_URI'),
+    ],
+    
+    // 'instagram' => [
+    //     'client_id' => env('INSTAGRAM_APP_ID'),
+    //     'client_secret' => env('INSTAGRAM_APP_SECRET'),
+    //     'redirect' => env('INSTAGRAM_REDIRECT_URI'),
+    // ],
 ];

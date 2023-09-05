@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostUploadController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,6 +18,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/Upload', [PostUploadController::class, 'UploadGet']);
+Route::post('/facebook/upload-post', [PostUploadController::class, 'uploadPost'])->name('upload.post');
+Route::get('/auth/facebook/callback', [PostUploadController::class, 'callback'])->name('facebook.callback');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
