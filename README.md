@@ -41,7 +41,7 @@
 <ol>
     <li>Clone the repository:
         <pre><code>
-git clone https://github.com/AbdullahTheDev/MetaPostCreate.git
+git clone https://github.com/AbdullahTheDev/social-media-auto-poster.git
 cd social-media-auto-poster
         </code></pre>
     </li>
