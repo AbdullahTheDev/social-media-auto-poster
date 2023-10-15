@@ -9,7 +9,7 @@ If you'd like to contribute to this project, please follow these steps:
 1. **Fork the Repository**: Start by forking this repository to your own GitHub account.
 
     ```
-    git clone https://github.com/AbdullahTheDev/MetaPostCreate.git
+    git clone https://github.com/AbdullahTheDev/social-media-auto-poster.git
     cd social-media-auto-poster
     ```
 
