@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Social Media Auto-Poster with AI</title>
-</head>
-<body>
-
 <h1>Social Media Auto-Poster with AI</h1>
 
 <!-- <img src="/path/to/logo.png" alt="Project Logo">  -->
