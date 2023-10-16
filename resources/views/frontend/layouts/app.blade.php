@@ -6,6 +6,7 @@
   @vite('resources/css/app.css')
 </head>
 <body>
+  @include('frontend.includes.navbar')
   @yield('frontend-content')
   @include('frontend.includes.script')
 </body>
