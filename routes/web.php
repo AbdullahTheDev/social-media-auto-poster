@@ -19,6 +19,11 @@ Route::get('/', function () {
     return view('frontend.home');
 });
 
+Route::get('/Pricing', function () {
+    return view('frontend.pricing');
+})->name('web.pricing');
+
+
 Route::get('/Upload', [PostUploadController::class, 'UploadGet']);
 Route::post('/facebook/upload-post', [PostUploadController::class, 'uploadPost'])->name('upload.post');
 Route::get('/auth/facebook/callback', [PostUploadController::class, 'callback'])->name('facebook.callback');
