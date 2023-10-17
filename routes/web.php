@@ -19,6 +19,11 @@ Route::get('/', function () {
     return view('frontend.home');
 });
 
+Route::get('/Landing-Page', function () {
+    return view('frontend.landing');
+})->name('web.landing');
+
+
 Route::get('/Pricing', function () {
     return view('frontend.pricing');
 })->name('web.pricing');
